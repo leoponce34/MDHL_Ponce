@@ -2,6 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+body{
+    background: radial-gradient(circle, rgba(63,94,251,0.9864320728291317) 44%, rgba(23,242,86,1) 100%);
+}
+header{
+    background-color: rgb(234, 237, 237);
+    min-height: 8vh;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 
@@ -15,39 +29,39 @@
 .logo{
     position: absolute;
     margin-left: 70em;
-    top: 40%;
-
-}
-h1{
-    position: absolute;
-    color: rgb(11, 11, 12);
-    font-size: 50px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 23%;
+    top: 60%;
     
 
 }
+h1{
+    flex-grow: 1;
+    font-size: 5rem;
+    color: rgb(128, 139, 150 );
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.489);
+    text-align: center;
+    background-color: rgb(234, 237, 237);
+    font-family: 'Unbounded', cursive;
+    
+}
+
 div>h2{
     background-color: black;
     color: white;
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
+
 
 h3{
     text-align: center;
     padding: 20px;
     height: 20px;
     
-    
-    
 }
 p{
-    text-align: left;
+    text-align: center;
     padding: 5px 500px;
-    
-    
-    
 }
 
 ul{
@@ -57,6 +71,68 @@ ul>li{
     list-style: none;
     padding: 40px;
     
+}
+nav a{
+    background-color: rgb(218, 216, 216);
+    height: 1.5rem;
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px;
+    color: rgb(7, 7, 7);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}    
 
+h2,h4{
+    text-align: center;
     
 }
+.eventos{
+    font-size: 20px;
+    
+
+}
+
+
+
+
+.tabla{
+    margin: auto;
+    background-color: gainsboro;
+    font-size: 20px;
+    
+}
+th,td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+.maps{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    min-height: fit-content;
+    width: 90%;
+}
+.informacion{
+    font-size: 20px;
+}
+    
+.formulario{
+    background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+form {
+    margin: 50px 300px;
+    width: 60%;
+    font-size: 20px;
+}
+
